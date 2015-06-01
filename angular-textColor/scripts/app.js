@@ -25,7 +25,7 @@ config(['$routeProvider', '$locationProvider', '$compileProvider', 'hljsServiceP
 	// var staticPath ='/';
 	var staticPath;
 	// staticPath ='/angular-directives/angular-textcolor/';		//local
-	staticPath ='/';		//nodejs (local)
+	staticPath ='/angular-textColor/';		//nodejs (local)
 	// staticPath ='/angular-textcolor/';		//gh-pages
 	var appPathRoute ='/';
 	var pagesPath =staticPath+'partials/';

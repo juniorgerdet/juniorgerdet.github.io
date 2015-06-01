@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:title" content="Angular textColor" />
         <meta property="og:description" content="A module #angular that adds color to text or to background of a HTML Item through its inside text" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="http://juniorgerdet.github.io/angular-textColor/" />
         <!-- <meta property="og:image" content="http://example.com/foo.jpg" /> -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
@@ -21,6 +21,8 @@
         <link href="styles/carousel.css" rel="stylesheet">
        <link rel="stylesheet" href="styles/main.css"/>
 	     <link rel="stylesheet" href="bower_components/highlightjs/styles/github.css"/>
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+
 
   <!-- Custom styles for this template -->
 
@@ -54,11 +56,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">angular-textColor</a>
+              <a class="navbar-brand" href="#home">angular-textColor</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <!-- <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -74,7 +76,7 @@
                 </li> -->
               </ul>
               <span class="copy-head">
-                Copyright © 2015 Junior Gerdet 
+                Copyright &copy; 2015 Junior Gerdet &middot;
               </span>
             </div>
           </div>
@@ -87,12 +89,16 @@
       <div class="jumbotron">
 	       <div ng-view></div>
       </div>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ada.ty" data-text="A module #angular that adds color to text or to background of a HTML Item through its inside text" data-via="juniorgerdet" data-hashtags="angularTextColor">Tweet</a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://goo.gl/K1M6SF" data-text="A module #angular that adds color to text or to background of a HTML Item through its inside text" data-via="juniorgerdet" data-hashtags="angularTextColor">Tweet</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-        <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-        <script type="IN/Share" data-url="http://www.text.com" data-counter="right"></script>
+      <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+      <script type="IN/Share" data-url="http://juniorgerdet.github.io/angular-textColor/" data-counter="right"></script>
+      <!-- Place this tag where you want the button to render. -->
+      <a class="github-button" href="https://github.com/juniorgerdet/angular-textColor" data-icon="octicon-star" data-count-href="/juniorgerdet/angular-textColor/stargazers" data-count-api="/repos/juniorgerdet/angular-textColor#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star juniorgerdet/angular-textColor on GitHub">Star</a>
     </div>
+
+
 </div>
    <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -104,11 +110,11 @@
       <div class="row">
         <div class="col-lg-6">
           <h2>Case of use</h2>
-          <p>Colorear segmentos o parte de una web, de acuerdo algun titulo. Mejorar la experiencia de usuario separando secciones en colores diferentes segun su contenido y cualquier otro uso que le pueda dar tu imaginacion.</p>
+          <p>Improve user experience by separating sections in different colors according to your content and any other use that can give your imagination</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-6">
           <h2>Creditos</h2>
-          <p>AngularJS, Google Material Design, Boostrap, GitHub Pages, Jekyl and and myself</p>
+          <p>AngularJS, Google Material Design, Boostrap, GitHub Pages, Ionicons of Ionic Framework and myself</p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -117,10 +123,10 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow89.js"></script>
-<noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+      <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow89.js"></script>
+      <noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
 </p>
-        <p> Copyright &copy; 2015-2016 Junior Gerdet &middot; </p>
+        <p> Copyright &copy; 2015 Junior Gerdet &middot; </p>
       </footer>
 
     </div><!-- /.container -->
@@ -128,7 +134,9 @@
 
   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
   <script>window.jQuery || document.write('<script src="scripts/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
-
+  <!-- Place this tag right after the last button or just before your close body tag. -->
+  
+  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
   <script src="scripts/vendor/jquery-1.11.2.min.js"></script>
   <script src="scripts/vendor/bootstrap.min.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
@@ -141,6 +149,6 @@
 
 	<script type="text/javascript" src="scripts/angular-textcolor.min.js"></script>
 	<script type="text/javascript" src="scripts/app.js"></script>
-	<script type="text/javascript" src="partials/home/HomeCtrl.js"></script>
+	<script type="text/javascript" src="scripts/controllers/HomeCtrl.js"></script>
 </body>
 </html>

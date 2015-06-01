@@ -23,14 +23,15 @@ config(['$routeProvider', '$locationProvider', '$compileProvider', 'hljsServiceP
 	// var staticPath ='/';
 	var staticPath;
 	// staticPath ='/angular-directives/angular-textcolor/';		//local
-	staticPath ='/';		//nodejs (local)
+	staticPath ='/angular-textColor/';		//nodejs (local)
 	// staticPath ='/angular-textcolor/';		//gh-pages
 	var appPathRoute ='/';
 	var pagesPath =staticPath+'partials/';
 	
 	
-	$routeProvider.when(appPathRoute+'home', {templateUrl: pagesPath+'home/home.html'});
+	$routeProvider.when(appPathRoute, {templateUrl: pagesPath+'home.html'})
+	.when(appPathRoute+'contact', {templateUrl: pagesPath+'contact.html', controller:'contactCtrl'});
 
-	$routeProvider.otherwise({redirectTo: appPathRoute+'home'});
+	$routeProvider.otherwise({redirectTo: appPathRoute});
 	
 }]);

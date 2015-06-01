@@ -1,4 +1,9 @@
 /**
+* @fileoverview Controller
+*
+* @author Junior Gerdet
+* @email juniorgerdet@gmail.com
+* @version 0.1
 */
 
 'use strict';

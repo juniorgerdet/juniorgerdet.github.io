@@ -1,4 +1,13 @@
-/* jrg-textcolor */
+/**
+* @style       Standard Layout
+* @media       screen
+* @version     0.1
+* @author      Junior Gerdet
+* @copyright   Junior Gerdet
+* @licensor    
+* @email juniorgerdet@gmail.com
+* @description Main Style    
+*/
 
 .jumbotron{
 	background-color: #fff;	

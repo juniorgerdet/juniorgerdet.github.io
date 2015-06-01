@@ -1,8 +1,10 @@
 /**
-@toc
-1. setup - whitelist, appPath, html5Mode
+* @fileoverview App.js
+*
+* @author Junior Gerdet
+* @email juniorgerdet@gmail.com
+* @version 0.1
 */
-
 'use strict';
 
 angular.module('myApp', [
